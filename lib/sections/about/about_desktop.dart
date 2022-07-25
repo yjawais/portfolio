@@ -83,12 +83,14 @@ class AboutDesktop extends StatelessWidget {
                         ),
                       ),
                       Space.y!,
-                      Row(
-                        children: kTools
-                            .map((e) => ToolTechWidget(
-                                  techName: e,
-                                ))
-                            .toList(),
+                      Expanded(
+                        child: Row(
+                          children: kTools
+                              .map((e) => ToolTechWidget(
+                                    techName: e,
+                                  ))
+                              .toList(),
+                        ),
                       ),
                       Space.y!,
                       Divider(
