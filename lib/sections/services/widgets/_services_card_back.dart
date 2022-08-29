@@ -70,20 +70,20 @@ class _ServiceCardBackWidget extends StatelessWidget {
                           MaterialButton(
                             height: 40.0,
                             onPressed: () => openURL(
-                              'https://www.upwork.com/freelancers/~0197b0f6aaeba9675f',
+                              'mailto:mdawais.work@gmail.com',
                             ),
                             color: const Color(0xff13A800),
                             child: Row(
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Image.network(
-                                  'https://img.icons8.com/ios-filled/50/000000/upwork.png',
+                                  'https://img.icons8.com/ios-filled/50/000000/mail.png',
                                   height: 35.0,
                                   color: Colors.white,
                                 ),
                                 Space.x!,
                                 Text(
-                                  'Upwork',
+                                  'E-Mail',
                                   style: AppText.l1!.copyWith(
                                     color: Colors.white,
                                   ),

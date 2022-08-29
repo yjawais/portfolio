@@ -3,16 +3,16 @@ import 'package:folio/utils/utils.dart';
 class WorkUtils {
   static const List<String> logos = [
     StaticUtils.university,
-    StaticUtils.fullterIsb,
-    StaticUtils.dsc,
-    StaticUtils.sastaticket,
+    StaticUtils.kaliba,
+    StaticUtils.wishmeal,
+    StaticUtils.champdream,
   ];
 
   static const List<String> communityLinks = [
     "https://www.sbjitmr.edu.in/",
-    "https://web.facebook.com/FlutterIslamabadPakistan/",
-    "https://dsc.community.dev/comsats-university-islamabad/",
-    "https://sastaticket.pk/"
+    "https://kaliba.in/",
+    "https://www.wishmeal.in/",
+    "https://www.champdream.com/",
   ];
 
   static const List<double> communityLogoHeight = [60.0, 70.0, 30.0, 70.0];
