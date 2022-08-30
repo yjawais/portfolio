@@ -19,8 +19,8 @@ class HomeDesktop extends StatelessWidget {
       child: Stack(
         children: [
           Positioned(
-            bottom: 0,
-            right: 0,
+            bottom: 10,
+            right: 20,
             child: Opacity(
               opacity: 0.9,
               child: EntranceFader(
@@ -100,7 +100,7 @@ class HomeDesktop extends StatelessWidget {
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
-                            'Web Developer',
+                            ' Web Developer',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),

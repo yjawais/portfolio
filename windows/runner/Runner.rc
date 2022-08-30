@@ -52,7 +52,7 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_APP_ICON            ICON                    "resources\\Icon-512.ico"
+IDI_APP_ICON            ICON                    "resources\\app_icon.ico"
 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.hmz" "\0"
-            VALUE "FileDescription", "devfolio" "\0"
+            VALUE "CompanyName", "com.example" "\0"
+            VALUE "FileDescription", "folio" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "devfolio" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2022 com.hmz. All rights reserved." "\0"
-            VALUE "OriginalFilename", "devfolio.exe" "\0"
-            VALUE "ProductName", "devfolio" "\0"
+            VALUE "InternalName", "folio" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "folio.exe" "\0"
+            VALUE "ProductName", "folio" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

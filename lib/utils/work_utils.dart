@@ -15,5 +15,5 @@ class WorkUtils {
     "https://www.champdream.com/",
   ];
 
-  static const List<double> communityLogoHeight = [60.0, 70.0, 30.0, 70.0];
+  static const List<double> communityLogoHeight = [70.0, 70.0, 70.0, 70.0];
 }

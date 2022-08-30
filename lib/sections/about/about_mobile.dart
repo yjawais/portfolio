@@ -79,11 +79,17 @@ class AboutMobile extends StatelessWidget {
           ),
           Space.y!,
           Row(
-            mainAxisAlignment: MainAxisAlignment.center,
             children: kTools
-                .map(
-                  (e) => ToolTechWidget(techName: e),
-                )
+                .map((e) => ToolTechWidget(
+                      techName: e,
+                    ))
+                .toList(),
+          ),
+          Row(
+            children: kTools2
+                .map((e) => ToolTechWidget(
+                      techName: e,
+                    ))
                 .toList(),
           ),
           Space.y!,

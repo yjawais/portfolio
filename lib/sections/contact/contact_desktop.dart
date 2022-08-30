@@ -1,9 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:folio/animations/bottom_animation.dart';
-import 'package:folio/configs/configs.dart';
-import 'package:folio/utils/contact_utils.dart';
-import 'package:folio/widget/custom_text_heading.dart';
-import 'package:folio/widget/project_card.dart';
+part of 'contact.dart';
 
 class ContactDesktop extends StatelessWidget {
   const ContactDesktop({Key? key}) : super(key: key);
@@ -23,15 +18,16 @@ class ContactDesktop extends StatelessWidget {
           Space.y!,
           Wrap(
               alignment: WrapAlignment.center,
-              runSpacing: AppDimensions.normalize(10),
+              spacing: MediaQuery.of(context).size.width * 0.05,
+            runSpacing: MediaQuery.of(context).size.height * 0.05,
               children: ContactUtils.contactIcon
                   .asMap()
                   .entries
                   .map((e) => WidgetAnimator(
-                        child: ProjectCard(
-                          projectIconData: e.value,
-                          projectTitle: ContactUtils.titles[e.key],
-                          projectDescription: ContactUtils.details[e.key],
+                        child: _ServiceCard(
+                          serviceIcon: ContactUtils.contactIcon[e.key],
+                          serviceTitle: ContactUtils.titles[e.key],
+                          serviceDescription: ContactUtils.details[e.key],
                         ),
                       ))
                   .toList()),

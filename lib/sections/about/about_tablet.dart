@@ -85,6 +85,13 @@ class AboutTab extends StatelessWidget {
                 )
                 .toList(),
           ),
+          Row(
+            children: kTools2
+                .map((e) => ToolTechWidget(
+                      techName: e,
+                    ))
+                .toList(),
+          ),
           Space.y!,
           Divider(
             color: Colors.grey[800],
