@@ -2,8 +2,8 @@
   "name": "Mohammad Awais",
   "email": "mdawais.work@gmail.com",
   "subtitles": ["Flutter Developer", "Web Developer", "Full-Stack Developer"],
-  "blackWhitePhotoURL": "https://drive.google.com/uc?export=view&id=1np1Or8kvpEmH5ghkFN5GJGqU8VAQRUCH",
-  "coloredPhotoURL": "https://drive.google.com/uc?export=view&id=1wE4FRqC9bRrzOqS64b48--ykLK1yklTJ",
+  "blackWhitePhotoURL": "https://drive.google.com/file/d/1Gt2kxpFZky7XQDWt1lIWtL9EUGNXsYmf/view?usp=sharing",
+  "coloredPhotoURL": "https://drive.google.com/file/d/1r2eSSYbb1majad95-zSVZ9lQ4YF9OTed/view?usp=sharing",
   "socialLinks": [
     {
       "platform": "linkedin",
@@ -62,13 +62,13 @@
   "projects": [
     {
       "title": "Amazon Clone",
-      "iconUrl": "https://drive.google.com/file/d/1EohcZdd5mg5dqHQIn24k_G0dpqQTFYwV/view?usp=sharing",
+      "iconUrl": "https://drive.google.com/file/d/1w2xdlnTJujKjnVaNBDa_23WFXksuRj-U/view?usp=sharing",
       "bannerUrl": "assets/projects/AmazonCloneB.png",
       "description": "A complete clone of the Amazon app with an Admin panel and similar UI to thegit add original app."
     },
     {
       "title": "WellBe",
-      "iconUrl": "https://drive.google.com/file/d/1nr1FHUkACm5cg2MpXKNftUeKw888NcJt/view?usp=sharing",
+      "iconUrl": "https://drive.google.com/file/d/1p8GxTtkEMKLjMu3NkTipS_475xVSPMJ2/view?usp=sharing",
       "bannerUrl": "assets/projects/WellBeB.png",
       "description": "A Health Prediction app developed using Flutter powered with Firebase as database and accurate python models."
     }
