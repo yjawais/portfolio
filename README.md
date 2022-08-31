@@ -11,7 +11,7 @@ Get started now by cloning :)
 
 </div>
 
-## 🧑‍💻 Devfolio
+## 🧑‍💻 Portfolio
 Is a multi-platform portfolio for developers available for mobile, windows and web. Includes the following sections:
 - Home
 - About
@@ -21,7 +21,7 @@ Is a multi-platform portfolio for developers available for mobile, windows and w
 
 ## 🔗 Useful links
 
-🌐 Web App:
+🌐 Web App: https://mohammad-awais.web.app
 
 
 ## 🔑 License
