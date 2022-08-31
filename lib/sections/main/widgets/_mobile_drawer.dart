@@ -69,12 +69,12 @@ class _MobileDrawer extends StatelessWidget {
                       borderRadius: BorderRadius.circular(5.0),
                       side: BorderSide(color: AppTheme.c!.primary!)),
                   onPressed: () => openURL(StaticUtils.resume),
-                  child: const ListTile(
+                  child:  ListTile(
                     leading: Icon(
                       Icons.book,
                       color: AppTheme.c!.primary,
                     ),
-                    title: Text(
+                    title:const Text(
                       'RESUME',
                     ),
                   ),
